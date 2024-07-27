@@ -1,6 +1,8 @@
 import Image from "next/image";
-import HeroSection from "./pages/heroSection";
-import Blog from "./pages/blogs";
+import HeroSection from "./(pages)/heroSection";
+import Blog from "./(pages)/blogs";
+import SingleBlog from "@/components/ui/singleBlog";
+import Footer from "@/components/footer";
 
 
 export default function Home() {
@@ -8,6 +10,7 @@ export default function Home() {
     <>
     <HeroSection />
     <Blog />
+    <Footer />
     </>
   );
 }

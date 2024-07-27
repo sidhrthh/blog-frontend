@@ -1,5 +1,3 @@
-import Link from "next/link"
-import { ArrowRightIcon, MenuIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
@@ -35,7 +33,7 @@ export default function Blog() {
                     <div>May 15, 2023</div>
                   </div>
                   <Button variant="link" size="sm">
-                    Read More
+                     Read more 
                   </Button>
                 </div>
                   </div>
